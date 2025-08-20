@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./NavbarStyleSheet.css";
 import { ContentMenu } from "./ContentMenu"
+import { Link } from "react-router-dom";
 
 
 class Navbar extends Component {
@@ -25,9 +26,9 @@ class Navbar extends Component {
                     {ContentMenu.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a href={item.url} className={item.cname}>
+                                <Link to={item.url} className={item.cname}>
                                     <i className={item.icon} /> {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}
