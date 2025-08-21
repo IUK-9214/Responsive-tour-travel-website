@@ -1,12 +1,25 @@
 
 
-import HeroStyleSheet from './HeroStyleSheets'
+import "./HeroStyleSheet.css"
 
-function Hero(){
+function Hero(props){
 return(
 <>
-<div className='hero'>
-<img alt='heroImage' src=''/>
+<div className={props.cName}>
+<img alt='heroImage' src={props.ImageUrl}/>
+
+<div className="hero-text">
+<h1>
+    {props.Title}
+</h1>
+<p>
+    {props.text}
+</p>
+<a href="/" >
+Travel Plan
+</a>
+</div>
+
 </div>
 </>
 
