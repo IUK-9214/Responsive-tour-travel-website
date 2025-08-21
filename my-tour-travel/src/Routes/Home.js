@@ -1,21 +1,25 @@
+import Destination from "../component/Destination";
 import Hero from "../component/Hero";
 import Navbar from "../component/Navbar";
 
 
-function Home(){
+function Home() {
 
-    return(
-        <>
-          <Navbar/> 
-          <Hero
-          cName="hero"
-          ImageUrl="https://images.pexels.com/photos/2221314/pexels-photo-2221314.jpeg"
-          Title="Your Journey Your Story"
-          text="Chose your favourite Destination"
-          />
-        <h1>Home</h1>
-        </>
-    )
+  return (
+    <>
+      <Navbar />
+      <Hero
+        cName="hero"
+        ImageUrl="https://images.pexels.com/photos/1542241/pexels-photo-1542241.jpeg"
+        Title="Your Journey Your Story"
+        text="Chose your favourite Destination"
+        buttontext="Travel Plan"
+        Url="/"
+        cButton="Show"
+      />
+      <Destination/>
+    </>
+  )
 }
 
 

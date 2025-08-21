@@ -1,11 +1,21 @@
 import Navbar from "../component/Navbar";
-
+import Hero from "../component/Hero";
+import AboutImage from "../assets/night.jpg"
 function About(){
 
     return(
         <>
           <Navbar/>
-        <h1>About</h1>
+           <Hero
+        cName="hero-mid"
+        ImageUrl={AboutImage }
+        Title="About"
+     
+        buttontext="Travel Plan"
+        Url="/"
+        cButton="Hide"
+      />
+        
         </>
     )
 }
