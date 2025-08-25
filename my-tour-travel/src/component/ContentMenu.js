@@ -27,6 +27,7 @@ export const ContentMenu = [
         title: "Signup",
         url: "/Signup",
         cname: "nav-links-mobile",
+        icon: " fa fa-sign-in"
 
     },
 
