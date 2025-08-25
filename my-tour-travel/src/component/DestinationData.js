@@ -2,12 +2,12 @@ import { Component } from "react";
 import "./Destination.css"
 
 
-class DestinationData extends Component{
+class DestinationData extends Component {
 
-    render(){
-        return(
+    render() {
+        return (
 
- <div className="first-desc">
+            <div className={this.props.classname}>
                 <div className="des-text">
                     <h2>
                         {this.props.heading}
@@ -17,8 +17,8 @@ class DestinationData extends Component{
                     </p>
                 </div>
                 <div className="image">
-                    <img alt="image" src={this.props.image1}/>
-                    <img alt="image" src={this.props.image2}/>
+                    <img alt="image" src={this.props.image1} />
+                    <img alt="image" src={this.props.image2} />
                 </div>
             </div>
         )

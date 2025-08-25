@@ -1,6 +1,8 @@
 import Destination from "../component/Destination";
+import Footer from "../component/Footer";
 import Hero from "../component/Hero";
 import Navbar from "../component/Navbar";
+import Trip from "../component/Trip";
 
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
         cButton="Show"
       />
       <Destination/>
+      <Trip/>
+      <Footer/>
     </>
   )
 }
