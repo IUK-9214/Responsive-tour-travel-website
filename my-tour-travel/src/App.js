@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './component/Navbar';
+import SignUp from './component/SignUp';
 import About from './Routes/About';
 import Contact from './Routes/Contact';
 import Home from './Routes/Home';
@@ -17,7 +18,7 @@ function App() {
     <Route path='/About' element={ <About/>}/>
     <Route path='/Contact' element={<Contact/>}/>
     <Route path='/Service' element={ <Services/>}/>
-
+    <Route path='/Signup' element={<SignUp/>}/>
    </Routes>
 
   

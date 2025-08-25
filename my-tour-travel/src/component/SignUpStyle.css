@@ -1,0 +1,62 @@
+.SignUp-card {
+
+    color: #2a2a2a;
+    border: 1px solid #2a2a2a;
+    padding: 50px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 4rem auto;
+}
+
+.SignUp-card form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    width: 100%;
+}
+
+.SignUp-card input {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.SignUp-card button {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #01959a;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.SignUp-card button:hover {
+    background-color: #017377;
+}
+
+@media screen and (max-width: 850px) {
+    .SignUp-card {
+        border: none;
+        margin: 4rem auto;
+    }
+
+    .SignUp-card form {
+        padding-top: 2rem;
+        width: 100%;
+    }
+}
